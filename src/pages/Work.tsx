@@ -38,6 +38,13 @@ const projects = [
     stack: ["React", "TypeScript", "Vite", "Tailwind CSS", "Shadcn/UI"],
     impact: "End-to-end train booking and admin operations workflow",
   },
+  {
+    name: "SmartQuiz AI Generator",
+    slug: "smartquiz-ai-generator",
+    description: "Built an intelligent web application that automatically creates customized quizzes from study material using NLP and machine learning. Supports PDF, PPTX, DOCX, and text input with interactive quiz flow and instant performance feedback.",
+    stack: ["Python", "Streamlit", "NLTK", "scikit-learn", "NumPy"],
+    impact: "AI-powered automated quiz generation for adaptive self-assessment",
+  },
 ];
 
 export default function Work() {

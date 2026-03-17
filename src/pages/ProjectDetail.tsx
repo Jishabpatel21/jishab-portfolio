@@ -118,6 +118,28 @@ const projectsData: Record<string, {
     ],
     github: "https://github.com/Jishabpatel21/track-route-connect",
   },
+  "smartquiz-ai-generator": {
+    name: "SmartQuiz AI Generator",
+    description: "AI-powered quiz generator from study materials.",
+    fullDescription: "SmartQuiz AI Generator is an intelligent web application that automatically creates customized quizzes from study materials using Natural Language Processing and machine learning techniques. It supports PDF, PPTX, DOCX, and text input, processes content through tokenization, stopword removal, stemming, and TF-IDF-based topic extraction, then generates MCQ and True/False questions in an interactive Streamlit interface with instant feedback and performance analysis.",
+    stack: ["Python", "Streamlit", "NLTK", "scikit-learn", "NumPy", "PyPDF2", "python-docx", "python-pptx"],
+    impact: "Automated quiz creation and real-time performance evaluation for faster learning",
+    challenges: [
+      "Extracting clean, meaningful text consistently from multiple file formats",
+      "Identifying key topics accurately using TF-IDF on varied educational content",
+      "Balancing question quality and difficulty across MCQ and True/False generation",
+      "Designing an interactive workflow that gives instant feedback and clear analytics",
+    ],
+    features: [
+      "AI-based question generation from uploaded or pasted content",
+      "Multi-format input support: PDF, PPTX, DOCX, and raw text",
+      "NLP pipeline with tokenization, stopword removal, and stemming",
+      "TF-IDF-driven topic extraction for focused quiz generation",
+      "Interactive Streamlit quiz interface with real-time score evaluation",
+      "Detailed performance analysis for self-assessment and revision planning",
+    ],
+    github: "https://github.com/Jishabpatel21/ai-quiz-generator",
+  },
 };
 
 export default function ProjectDetail() {

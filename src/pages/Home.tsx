@@ -43,6 +43,13 @@ const featuredProjects = [
     stack: ["React", "TypeScript", "Vite", "Tailwind CSS"],
     impact: "Streamlined railway booking and operations management",
   },
+  {
+    name: "SmartQuiz AI Generator",
+    slug: "smartquiz-ai-generator",
+    description: "Intelligent quiz generation app that creates MCQ and True/False questions from PDF, PPTX, DOCX, and text using NLP and ML techniques.",
+    stack: ["Python", "Streamlit", "NLTK", "scikit-learn"],
+    impact: "Automated learning and self-assessment with real-time feedback",
+  },
 ];
 
 export default function Home() {
